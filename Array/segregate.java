@@ -2,10 +2,10 @@ public class segregate {
     public static void main(String[] args) {
         int arr[]={1,0,1,1,1,1};
         int zeros=0;
-        int ones=0;
+       
         for(int el : arr){
             if(el==0)zeros++;
-            else ones++;
+        
         }
         for(int i=0;i<zeros;i++){
             arr[i]=0;
